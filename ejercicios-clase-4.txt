@@ -1,0 +1,61 @@
+Generar pruebas escritorio para las siguientes miniespecificaciones:
+
+UNO
+
+1.  i<--0
+2.  Mientras i <= 5 Entonces
+3.      i <-- i + 10
+4.  Fin Mientras
+5.  << i
+
+DOS
+
+Tenemos los valores dados para x y para z, que valor se presentarÃ¡ en pantalla, en base a las siguientes sentencias:
+
+x = True
+z = False
+
+Si x and z entonces
+    << "Ingreso Correcto"
+
+TRES
+1.  i<--100
+2.  Mientras i <= 100 Entonces
+3.      "<< i
+4.      i <-- i + 1
+5.  Fin Mientras
+6.  << i
+De lo Contrario
+    << "Ingreso Incorrecto"
+Fin Si
+
+CUATRO
+
+Si tenemos las siguientes sentencias de un programa.
+
+b <-- 10
+Mientras b <= 5 Entonces
+    b <-- b + 1
+    << “El valor de b es : ” + b
+Fin Mientras
+
+Qué resultado de imprime en pantalla?
+
+CINCO
+Si ejecuta el siguiente segmento de código y desarrolla las pruebas de escritorio ¿Qué secuencia de números se genera? 
+
+
+i<-- 0
+Mientras i<24 entonces:
+    Si i%6 == 0 entonces
+        << i
+    Fin Si
+    I = i + 3
+    
+Fin mientras
+
+
+GENERAR miniespecificaciones de los siguientes planteamientos:
+
+UNO
+Se desea generar un programa que permite obtener y presentar el cubo  de un número, siempre y cuando el número sea menor a 30, caso contrario debería obtener y presentar el cuadrado del número indicado. ¿Cuál de las siguientes sentencias permite obtener el resultado deseado?
